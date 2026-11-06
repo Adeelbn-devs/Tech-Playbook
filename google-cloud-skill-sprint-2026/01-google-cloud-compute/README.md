@@ -2,3 +2,7 @@
 
 ## 🎯 Objective
 Core IaaS operations on Google Cloud: provisioning Linux VMs from Console and `gcloud`, attaching persistent block storage, deploying NGINX and exposing it through a VPC firewall rule.
+
+## 🏗️ Architecture
+
+![Compute architecture](../assets/01-compute-architecture.png)
