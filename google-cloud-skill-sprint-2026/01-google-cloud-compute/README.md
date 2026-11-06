@@ -13,3 +13,8 @@ Core IaaS operations on Google Cloud: provisioning Linux VMs from Console and `g
 | :-: | :-- | :-- |
 | 1 | Set default zone | `gcloud config set compute/zone us-central1-a` |
 | 2 | Created VM with network tag | `--machine-type=e2-medium --tags=http-server` |
+| 3 | Created standalone disk | `gcloud compute disks create data-disk --type=pd-balanced` |
+| 4 | Attached, formatted (ext4), mounted disk | `mkfs.ext4` → `mount /dev/sdb /mnt/disks/data` |
+| 5 | Made mount persistent | entry in `/etc/fstab` |
+| 6 | Installed NGINX over SSH | `apt-get install -y nginx` |
+| 7 | Opened port 80 | firewall rule `allow-http` → target tag `http-server` |
