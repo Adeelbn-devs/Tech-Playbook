@@ -6,3 +6,10 @@ Core IaaS operations on Google Cloud: provisioning Linux VMs from Console and `g
 ## 🏗️ Architecture
 
 ![Compute architecture](../assets/01-compute-architecture.png)
+
+## 🧠 Hands-On Steps
+
+| Step | What I did | Command / Setting |
+| :-: | :-- | :-- |
+| 1 | Set default zone | `gcloud config set compute/zone us-central1-a` |
+| 2 | Created VM with network tag | `--machine-type=e2-medium --tags=http-server` |
