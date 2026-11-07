@@ -32,3 +32,5 @@ Full reusable script: [`setup-commands.sh`](./setup-commands.sh)
 
 ## 💡 Engineering Takeaways
 - **Lifecycle decoupling:** keep data on a secondary disk so VM boot disks can be recreated or upgraded safely.
+- **Tag-based exposure:** bind firewall rules to tags (`http-server`) so only intended web VMs are reachable.
+- **Persist mounts:** without `/etc/fstab`, the disk is unmounted after reboot.
