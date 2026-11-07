@@ -27,3 +27,5 @@ Full reusable script: [`setup-commands.sh`](./setup-commands.sh)
 | :-- | :-- |
 | Persistent Disk | Data lives independently of the VM boot disk |
 | Network tags | Firewall rules apply only to tagged VMs, not the whole VPC |
+| Ingress firewall rule | VPC denies inbound traffic by default; must be explicitly allowed |
+| `gcloud` defaults | Set region/zone once, shorter commands afterwards |
