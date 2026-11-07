@@ -20,3 +20,10 @@ Core IaaS operations on Google Cloud: provisioning Linux VMs from Console and `g
 | 7 | Opened port 80 | firewall rule `allow-http` → target tag `http-server` |
 
 Full reusable script: [`setup-commands.sh`](./setup-commands.sh)
+
+## 🔍 Concepts at a Glance
+
+| Concept | Why it matters |
+| :-- | :-- |
+| Persistent Disk | Data lives independently of the VM boot disk |
+| Network tags | Firewall rules apply only to tagged VMs, not the whole VPC |
