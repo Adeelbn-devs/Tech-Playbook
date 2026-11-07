@@ -29,3 +29,6 @@ Full reusable script: [`setup-commands.sh`](./setup-commands.sh)
 | Network tags | Firewall rules apply only to tagged VMs, not the whole VPC |
 | Ingress firewall rule | VPC denies inbound traffic by default; must be explicitly allowed |
 | `gcloud` defaults | Set region/zone once, shorter commands afterwards |
+
+## 💡 Engineering Takeaways
+- **Lifecycle decoupling:** keep data on a secondary disk so VM boot disks can be recreated or upgraded safely.
