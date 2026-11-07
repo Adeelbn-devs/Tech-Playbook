@@ -18,3 +18,5 @@ Core IaaS operations on Google Cloud: provisioning Linux VMs from Console and `g
 | 5 | Made mount persistent | entry in `/etc/fstab` |
 | 6 | Installed NGINX over SSH | `apt-get install -y nginx` |
 | 7 | Opened port 80 | firewall rule `allow-http` → target tag `http-server` |
+
+Full reusable script: [`setup-commands.sh`](./setup-commands.sh)
