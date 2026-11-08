@@ -21,3 +21,5 @@ gcloud compute instances attach-disk web-server-vm --disk=data-disk
 gcloud compute firewall-rules create allow-http \
   --direction=INGRESS \
   --allow=tcp:80 \
+  --target-tags=http-server \
+  --description="Allow incoming HTTP traffic"
