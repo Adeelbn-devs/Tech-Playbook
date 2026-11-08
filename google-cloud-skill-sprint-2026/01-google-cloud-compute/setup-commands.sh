@@ -12,3 +12,7 @@ gcloud compute instances create web-server-vm \
   --image-family=debian-12 \
   --image-project=debian-cloud \
   --tags=http-server
+
+  # 3. Create & attach a 50GB persistent disk
+gcloud compute disks create data-disk --size=50GB --type=pd-balanced
+gcloud compute instances attach-disk web-server-vm --disk=data-disk
