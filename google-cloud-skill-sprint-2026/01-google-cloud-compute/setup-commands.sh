@@ -23,3 +23,6 @@ gcloud compute firewall-rules create allow-http \
   --allow=tcp:80 \
   --target-tags=http-server \
   --description="Allow incoming HTTP traffic"
+
+  # 5. Connect, then run the commands below INSIDE the VM
+gcloud compute ssh web-server-vm
