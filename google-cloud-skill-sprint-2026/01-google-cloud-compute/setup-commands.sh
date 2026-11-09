@@ -26,3 +26,7 @@ gcloud compute firewall-rules create allow-http \
 
   # 5. Connect, then run the commands below INSIDE the VM
 gcloud compute ssh web-server-vm
+
+# ---- inside the VM ----
+# sudo mkfs.ext4 -m 0 -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/sdb
+# sudo mkdir -p /mnt/disks/data
