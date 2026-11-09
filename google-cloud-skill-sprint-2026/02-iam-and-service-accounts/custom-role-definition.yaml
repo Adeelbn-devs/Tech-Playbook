@@ -1,3 +1,6 @@
 title: "Custom CloudSQL Connector"
 description: "Least-privilege role for viewing and connecting to Cloud SQL"
 stage: "GA"
+includedPermissions:
+- cloudsql.instances.get
+- cloudsql.instances.connect
