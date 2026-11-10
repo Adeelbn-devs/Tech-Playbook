@@ -15,3 +15,5 @@ def run_query() -> None:
         ORDER BY total_count DESC
         LIMIT 5
     """
+    for row in client.query(query).result():
+        print(f"{row.name}: {row.total_count}")
