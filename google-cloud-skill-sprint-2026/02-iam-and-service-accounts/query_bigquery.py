@@ -17,3 +17,7 @@ def run_query() -> None:
     """
     for row in client.query(query).result():
         print(f"{row.name}: {row.total_count}")
+        
+
+if __name__ == "__main__":
+    run_query()
