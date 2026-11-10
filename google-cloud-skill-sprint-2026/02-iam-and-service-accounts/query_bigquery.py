@@ -2,3 +2,5 @@
 
 Install: pip install google-cloud-bigquery
 """
+
+from google.cloud import bigquery
