@@ -12,3 +12,5 @@ Apply the **Principle of Least Privilege**: no hardcoded keys, dedicated service
 | Concept | What I learned |
 | :-- | :-- |
 | Service Account | Non-human identity attached to a VM, replaces static JSON keys |
+| Custom Role (YAML) | Pick only the permissions needed, e.g. `cloudsql.instances.get` + `connect` |
+| Role stages | `ALPHA`, `BETA`, `GA`, `DISABLED`; deleted roles can be undeleted |
