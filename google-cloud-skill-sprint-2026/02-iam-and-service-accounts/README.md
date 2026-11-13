@@ -6,3 +6,9 @@ Apply the **Principle of Least Privilege**: no hardcoded keys, dedicated service
 ## 🔐 Security Architecture
 
 ![IAM architecture](../assets/02-iam-security-architecture.png)
+
+## 🧠 Key Concepts
+
+| Concept | What I learned |
+| :-- | :-- |
+| Service Account | Non-human identity attached to a VM, replaces static JSON keys |
