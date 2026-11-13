@@ -21,3 +21,6 @@ Apply the **Principle of Least Privilege**: no hardcoded keys, dedicated service
 ## 🛠️ Useful Commands
 
 ```bash
+# Create a custom role from YAML
+gcloud iam roles create customCloudSQLConnector --project=$PROJECT_ID \
+  --file=custom-role-definition.yaml
