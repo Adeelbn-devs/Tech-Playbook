@@ -16,3 +16,8 @@ Apply the **Principle of Least Privilege**: no hardcoded keys, dedicated service
 | Role stages | `ALPHA`, `BETA`, `GA`, `DISABLED`; deleted roles can be undeleted |
 | etag | Concurrency token: read-modify-write policies without overwriting others' edits |
 | Application Default Credentials | Client libraries pick up the VM's identity automatically |
+
+
+## 🛠️ Useful Commands
+
+```bash
