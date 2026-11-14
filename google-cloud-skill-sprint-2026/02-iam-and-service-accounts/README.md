@@ -31,3 +31,5 @@ gcloud iam roles update customCloudSQLConnector --project=$PROJECT_ID \
 
   # Disable / undelete lifecycle
 gcloud iam roles update customCloudSQLConnector --project=$PROJECT_ID --stage=DISABLED
+gcloud iam roles undelete customCloudSQLConnector --project=$PROJECT_ID
+```
