@@ -28,3 +28,6 @@ gcloud iam roles create customCloudSQLConnector --project=$PROJECT_ID \
   # Update (uses etag from the YAML/describe output)
 gcloud iam roles update customCloudSQLConnector --project=$PROJECT_ID \
   --file=custom-role-definition.yaml
+
+  # Disable / undelete lifecycle
+gcloud iam roles update customCloudSQLConnector --project=$PROJECT_ID --stage=DISABLED
