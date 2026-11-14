@@ -24,3 +24,7 @@ Apply the **Principle of Least Privilege**: no hardcoded keys, dedicated service
 # Create a custom role from YAML
 gcloud iam roles create customCloudSQLConnector --project=$PROJECT_ID \
   --file=custom-role-definition.yaml
+
+  # Update (uses etag from the YAML/describe output)
+gcloud iam roles update customCloudSQLConnector --project=$PROJECT_ID \
+  --file=custom-role-definition.yaml
