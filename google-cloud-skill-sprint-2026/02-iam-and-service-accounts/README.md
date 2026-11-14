@@ -38,3 +38,5 @@ Files: [`custom-role-definition.yaml`](./custom-role-definition.yaml) · [`query
 
 ## 💡 Engineering Takeaways
 - **Zero static keys:** VM-attached identities receive short-lived, auto-rotated OAuth2 tokens.
+- **Smallest role possible:** start from required permissions, not from broad predefined roles.
+- **Mind the etag:** always include it on updates so concurrent edits are detected, not overwritten.
