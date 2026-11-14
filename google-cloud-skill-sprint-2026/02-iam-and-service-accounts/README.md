@@ -35,3 +35,6 @@ gcloud iam roles undelete customCloudSQLConnector --project=$PROJECT_ID
 ```
 
 Files: [`custom-role-definition.yaml`](./custom-role-definition.yaml) · [`query_bigquery.py`](./query_bigquery.py)
+
+## 💡 Engineering Takeaways
+- **Zero static keys:** VM-attached identities receive short-lived, auto-rotated OAuth2 tokens.
