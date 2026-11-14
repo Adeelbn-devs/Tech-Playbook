@@ -33,3 +33,5 @@ gcloud iam roles update customCloudSQLConnector --project=$PROJECT_ID \
 gcloud iam roles update customCloudSQLConnector --project=$PROJECT_ID --stage=DISABLED
 gcloud iam roles undelete customCloudSQLConnector --project=$PROJECT_ID
 ```
+
+Files: [`custom-role-definition.yaml`](./custom-role-definition.yaml) · [`query_bigquery.py`](./query_bigquery.py)
