@@ -11,3 +11,4 @@ Built an enterprise-ready, grounded GenAI assistant with Gemini Enterprise: stru
 
 | Component | Role | Takeaway |
 | :-- | :-- | :-- |
+| Cloud Storage + Drive connectors | Data sources | Connected with IdP so ACLs are preserved |
