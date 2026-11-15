@@ -6,3 +6,5 @@ Built an enterprise-ready, grounded GenAI assistant with Gemini Enterprise: stru
 ## 🏗️ Architecture
 
 ![Gemini Enterprise RAG](../assets/03-gemini-rag-architecture.png)
+
+## 🧠 Key Components
