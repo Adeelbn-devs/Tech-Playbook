@@ -16,3 +16,5 @@ Built an enterprise-ready, grounded GenAI assistant with Gemini Enterprise: stru
 | Metadata-driven RAG | Retrieval | PDFs (semantic) + JSON `structData` (exact filters) |
 | Deep Research agent | Analysis | Multi-step web synthesis |
 | Notebook | Analysis | Strictly source-grounded document analysis |
+
+## 🔎 Why Metadata Matters
