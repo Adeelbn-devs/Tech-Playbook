@@ -18,3 +18,5 @@ Built an enterprise-ready, grounded GenAI assistant with Gemini Enterprise: stru
 | Notebook | Analysis | Strictly source-grounded document analysis |
 
 ## 🔎 Why Metadata Matters
+
+| Question | Vector search only | With structured metadata |
