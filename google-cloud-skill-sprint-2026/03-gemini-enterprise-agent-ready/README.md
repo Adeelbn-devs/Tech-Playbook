@@ -14,3 +14,4 @@ Built an enterprise-ready, grounded GenAI assistant with Gemini Enterprise: stru
 | Cloud Storage + Drive connectors | Data sources | Connected with IdP so ACLs are preserved |
 | IdP / ACL enforcement | Security | Users only get answers from documents they may access |
 | Metadata-driven RAG | Retrieval | PDFs (semantic) + JSON `structData` (exact filters) |
+| Deep Research agent | Analysis | Multi-step web synthesis |
