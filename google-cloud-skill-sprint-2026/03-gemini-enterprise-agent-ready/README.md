@@ -20,3 +20,5 @@ Built an enterprise-ready, grounded GenAI assistant with Gemini Enterprise: stru
 ## 🔎 Why Metadata Matters
 
 | Question | Vector search only | With structured metadata |
+| :-- | :-- | :-- |
+| "Routers under $50" | ❌ weak on numeric comparison |
