@@ -28,3 +28,5 @@ Built an enterprise-ready, grounded GenAI assistant with Gemini Enterprise: stru
 | "Networking category" | ⚠️ fuzzy | ✅ exact `category` match |
 
 Sample schema: [`sample-metadata-schema.json`](./sample-metadata-schema.json)
+
+## 💡 Engineering Takeaways
