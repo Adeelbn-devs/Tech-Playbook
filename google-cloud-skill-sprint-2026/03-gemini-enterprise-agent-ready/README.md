@@ -30,3 +30,4 @@ Built an enterprise-ready, grounded GenAI assistant with Gemini Enterprise: stru
 Sample schema: [`sample-metadata-schema.json`](./sample-metadata-schema.json)
 
 ## 💡 Engineering Takeaways
+- **Metadata is critical for enterprise RAG:** 
