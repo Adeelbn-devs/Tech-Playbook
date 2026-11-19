@@ -26,3 +26,5 @@ Built an enterprise-ready, grounded GenAI assistant with Gemini Enterprise: stru
 | "Only items in stock" | ❌ may return outdated docs | 
 ✅ `in_stock = true` |
 | "Networking category" | ⚠️ fuzzy | ✅ exact `category` match |
+
+Sample schema: [`sample-metadata-schema.json`](./sample-metadata-schema.json)
