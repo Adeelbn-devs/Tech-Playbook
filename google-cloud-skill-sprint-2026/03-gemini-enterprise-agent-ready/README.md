@@ -32,3 +32,4 @@ Sample schema: [`sample-metadata-schema.json`](./sample-metadata-schema.json)
 ## 💡 Engineering Takeaways
 - **Metadata is critical for enterprise RAG:** 
 embeddings handle meaning; structured fields handle numbers and exact filters.
+- **Security by design:** enforce IdP permissions at retrieval time, never rely on prompt instructions alone.
