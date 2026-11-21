@@ -1,3 +1,7 @@
 {
   "id": "item-104",
-  "structData": }
+  "structData": {
+    "category": "networking",
+    "price": 45.00,
+    "in_stock": true
+  },
