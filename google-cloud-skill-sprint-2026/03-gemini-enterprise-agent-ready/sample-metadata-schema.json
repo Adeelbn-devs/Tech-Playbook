@@ -5,3 +5,5 @@
     "price": 45.00,
     "in_stock": true
   },
+  "content": {
+    "mimeType": "application/pdf",
