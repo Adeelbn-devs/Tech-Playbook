@@ -8,5 +8,5 @@ const pubsub = new PubSub();
 const TOPIC_NAME = process.env.PUBSUB_TOPIC || 'thumbnail-events';
 
 exports.generateThumbnail = async (cloudEvent) => {
-  const bucketName = cloudEvent.data.bucket;
-  const fileName = cloudEvent.data.name;
+ const file = cloudEvent.data;
+  const fileName = file.name;
