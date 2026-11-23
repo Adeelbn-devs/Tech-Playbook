@@ -7,3 +7,6 @@
   },
   "content": {
     "mimeType": "application/pdf",
+    "uri": "gs://enterprise-catalog-bucket/routers/spec-sheet.pdf"
+  }
+}
