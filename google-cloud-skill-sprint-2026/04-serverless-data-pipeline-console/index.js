@@ -10,3 +10,9 @@ const TOPIC_NAME = process.env.PUBSUB_TOPIC || 'thumbnail-events';
 exports.generateThumbnail = async (cloudEvent) => {
  const file = cloudEvent.data;
   const fileName = file.name;
+
+  // Infinite-loop prevention guard
+  if (!fileName || fileName.startsWith('thumb_') || !file.contentType?.startsWith('image/')) {
+    console.log(`Skipping file: ${fileName}`);
+    return;
+  }
