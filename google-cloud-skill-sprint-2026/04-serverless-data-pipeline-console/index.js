@@ -22,3 +22,5 @@ exports.generateThumbnail = async (cloudEvent) => {
 
   // Resize image to 64x64 using Sharp
   const thumbnailBuffer = await sharp(imageBuffer).resize(64, 64).toBuffer();
+
+  const thumbFileName = `thumb_${path.basename(fileName)}`;
