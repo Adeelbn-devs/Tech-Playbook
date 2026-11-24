@@ -24,3 +24,6 @@ exports.generateThumbnail = async (cloudEvent) => {
   const thumbnailBuffer = await sharp(imageBuffer).resize(64, 64).toBuffer();
 
   const thumbFileName = `thumb_${path.basename(fileName)}`;
+  await bucket.file(thumbFileName).save(thumbnailBuffer, {
+    metadata: { contentType: file.contentType },
+  });
