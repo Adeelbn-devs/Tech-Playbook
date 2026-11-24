@@ -27,3 +27,7 @@ exports.generateThumbnail = async (cloudEvent) => {
   await bucket.file(thumbFileName).save(thumbnailBuffer, {
     metadata: { contentType: file.contentType },
   });
+
+  // Publish metadata to Pub/Sub
+  const messagePayload = Buffer.from(
+    JSON.stringify({
