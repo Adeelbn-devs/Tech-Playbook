@@ -19,3 +19,6 @@ exports.generateThumbnail = async (cloudEvent) => {
 
   const bucket = storage.bucket(file.bucket);
   const [imageBuffer] = await bucket.file(fileName).download();
+
+  // Resize image to 64x64 using Sharp
+  const thumbnailBuffer = await sharp(imageBuffer).resize(64, 64).toBuffer();
