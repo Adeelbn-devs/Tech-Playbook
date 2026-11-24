@@ -16,3 +16,6 @@ exports.generateThumbnail = async (cloudEvent) => {
     console.log(`Skipping file: ${fileName}`);
     return;
   }
+
+  const bucket = storage.bucket(file.bucket);
+  const [imageBuffer] = await bucket.file(fileName).download();
