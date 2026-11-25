@@ -37,3 +37,8 @@ exports.generateThumbnail = async (cloudEvent) => {
       processedAt: new Date().toISOString(),
     })
   );
+
+  
+  await pubsub.topic(TOPIC_NAME).publishMessage({ data: messagePayload });
+  console.log(`Processed ${fileName} -> ${thumbFileName} & published to Pub/Sub.`);
+};
