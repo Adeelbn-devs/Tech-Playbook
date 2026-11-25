@@ -1,3 +1,5 @@
 {
   "name": "gcs-thumbnail-generator",
   "version": "1.0.0",
+  "description": "Event-driven Cloud Run Function (2nd Gen) for image resizing and Pub/Sub notification",
+  "main": "index.js",
