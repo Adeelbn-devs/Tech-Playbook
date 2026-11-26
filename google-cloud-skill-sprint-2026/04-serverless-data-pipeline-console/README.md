@@ -6,3 +6,5 @@ Built a fully automated, event-driven image pipeline: every upload triggers thum
 ## 🏗️ Serverless Event-Driven Architecture
 
 ![Serverless pipeline](../assets/serverless-pipeline-architecture.png)
+
+## 🧩 Components
