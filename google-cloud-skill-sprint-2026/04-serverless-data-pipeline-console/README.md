@@ -12,3 +12,4 @@ Built a fully automated, event-driven image pipeline: every upload triggers thum
 | Service | Role | Config |
 | :-- | :-- | :-- |
 | Cloud Storage | Image ingress + thumbnail output | bucket in `us-central1` |
+| Eventarc | Trigger | `google.cloud.storage.object.v1.finalized` |
