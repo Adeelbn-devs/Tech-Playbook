@@ -18,3 +18,6 @@ Built a fully automated, event-driven image pipeline: every upload triggers thum
 | Pub/Sub | Notifications | topic `thumbnail-events` |
 
 ## 🚀 Deploy (CLI equivalent of the console steps)
+
+```bash
+gcloud functions deploy generate-thumbnail \
