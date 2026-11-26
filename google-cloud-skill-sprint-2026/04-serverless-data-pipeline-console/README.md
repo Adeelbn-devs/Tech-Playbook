@@ -16,3 +16,5 @@ Built a fully automated, event-driven image pipeline: every upload triggers thum
 | Cloud Run Functions | Processing | 2nd gen, Node.js 22, entry point `generateThumbnail` |
 | `sharp` | Image resize | 64×64 |
 | Pub/Sub | Notifications | topic `thumbnail-events` |
+
+## 🚀 Deploy (CLI equivalent of the console steps)
