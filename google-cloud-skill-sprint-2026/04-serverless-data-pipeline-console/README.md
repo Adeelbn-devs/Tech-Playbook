@@ -8,3 +8,6 @@ Built a fully automated, event-driven image pipeline: every upload triggers thum
 ![Serverless pipeline](../assets/serverless-pipeline-architecture.png)
 
 ## 🧩 Components
+
+| Service | Role | Config |
+| :-- | :-- | :-- |
