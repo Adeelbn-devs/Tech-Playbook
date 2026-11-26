@@ -14,3 +14,5 @@ Built a fully automated, event-driven image pipeline: every upload triggers thum
 | Cloud Storage | Image ingress + thumbnail output | bucket in `us-central1` |
 | Eventarc | Trigger | `google.cloud.storage.object.v1.finalized` |
 | Cloud Run Functions | Processing | 2nd gen, Node.js 22, entry point `generateThumbnail` |
+| `sharp` | Image resize | 64×64 |
+| Pub/Sub | Notifications | topic `thumbnail-events` |
