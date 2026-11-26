@@ -2,3 +2,7 @@
 
 ## 🎯 Objective
 Built a fully automated, event-driven image pipeline: every upload triggers thumbnail generation and an asynchronous Pub/Sub notification.
+
+## 🏗️ Serverless Event-Driven Architecture
+
+![Serverless pipeline](../assets/serverless-pipeline-architecture.png)
